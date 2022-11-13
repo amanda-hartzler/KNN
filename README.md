@@ -1,1 +1,4 @@
 # KNN
+The goal of this analysis was to use KNN analysis to predict a customer’s churn status (Churn Status is whether they left the company withing the last year). It costs the company more money to acquire new customers than to retain customers. Knowing what is associated with customers leaving the company can help the company focus on those factors and increase profits. 
+
+KNN works by assuming every data point failing near another is falling in the same class. In other words, it classifies new data points based on similarity/proximity. The KNN algorithm takes in a k-value and uses distance to find the k nearest neighbors. It then uses those values to determine what the new point must be. The expected outcome of KNN is to be able to classify new points as 1 or 0 depending on the likely churn status. 
